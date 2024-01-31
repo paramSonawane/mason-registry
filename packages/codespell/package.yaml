@@ -11,7 +11,7 @@ source:
   id: pkg:github/paramSonawane/codespell_columns@v2.2.6
   build:
     run: |
-      pip install --upgrade git+https://github.com/paramSonawane/codespell_columns.git@2.2.6
+      pip install --upgrade git+https://github.com/paramSonawane/codespell_columns.git@v2.2.6
 
 bin:
   codespell: pypi:codespell
