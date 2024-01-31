@@ -8,7 +8,7 @@ languages: []
 categories:
   - Linter
 source:
-  id: pkg:github/paramSonawane/codespell_columns@v2.2.6
+  id: pkg:github/paramSonawane/codespell_columns@v2.2.7-alpha
   build:
     run: |
       pip install --target=./dist .
