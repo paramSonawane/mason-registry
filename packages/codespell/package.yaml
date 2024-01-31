@@ -11,7 +11,7 @@ source:
   id: pkg:github/paramSonawane/codespell_columns@v2.2.6
   build:
     run: |
-      pip install --target=./venv .
+      pip install --target=./dist .
 
 bin:
-  codespell: venv/bin/codespell
+  codespell: dist/bin/codespell
