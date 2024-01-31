@@ -1,0 +1,17 @@
+---
+name: codespell_column
+description: Check code for common misspellings.
+homepage: https://github.com/paramSonawane/codespell_column
+licenses:
+  - GPL-2.0-or-later
+languages: []
+categories:
+  - Linter
+source:
+  id: pkg:github/paramSonawane/codespell_columns@v2.2.6
+  build:
+    run: |
+      pip install --upgrade git+https://github.com/paramSonawane/codespell_columns.git@2.2.6
+
+bin:
+  codespell: pypi:codespell
